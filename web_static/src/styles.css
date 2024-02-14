@@ -1,6 +1,8 @@
 :root {
 --primary-colour: #f65282;
 --google-font: 'Lora', serif;
+--hover-colour: #a393eb;
+--primary-colour2: #f9ecec;
 }
 nav {
     padding: 20px;
@@ -28,12 +30,14 @@ html {
     padding: 0;
 }
 i.fa-solid.fa-scale-balanced {
-    margin-top: 0;
     color: var(--primary-colour);
     font-size: 50px;
+    position: absolute;
+    top: 65px ;
+    right: 330px;
 }
 .navbar-menu ul {
-    list-style-type: none;
+    
     display: flex;
     justify-content: flex-end; 
     margin: 0; 
@@ -42,7 +46,68 @@ i.fa-solid.fa-scale-balanced {
 .navbar-menu li {
     margin-left: 20px; 
     font-family: var(--google-font);
+    list-style-type: none;
   }
   .navbar-menu {
     background-color: #f9ecec;
+  }
+  a {
+    text-decoration: none;
+    color: var(--primary-colour);
+  }
+  a:hover {
+    text-decoration: underline;
+    color: var(--hover-colour);
+  }
+.background-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.features {
+  background-color: var(--primary-colour2); 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: 220px;
+  
+}
+.footer-info {
+    color: var(--primary-colour);
+}
+.address {
+    color: black;
+    text-align: center;
+}
+.address:hover {
+    color: var(--hover-colour);
+    text-decoration: underline;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 200px;
+    border-radius: 10px;
+  }
+    .login-box button {
+    margin-right: 10px;
+  }
+  button {
+    background-color: var(--primary-colour);
+    padding: 25px;
+    border: 1px;
+    border-radius: 15px;
+  }
+  button:hover {
+    background-color: var(--primary-colour2);
+    color: var(--primary-colour);
+    cursor: pointer;
   }
