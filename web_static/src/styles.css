@@ -1,0 +1,48 @@
+:root {
+--primary-colour: #f65282;
+--google-font: 'Lora', serif;
+}
+nav {
+    padding: 20px;
+    background-color: var(--primary-colour);
+    box-sizing: border-box;
+    color: #ffff;
+    text-align: center;
+  }
+header {
+   background-color: var(--primary-colour); 
+   margin: 0;
+}
+.body-font {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+i.fa-solid.fa-scale-balanced {
+    margin-top: 0;
+    color: var(--primary-colour);
+    font-size: 50px;
+}
+.navbar-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0; 
+    padding: 0;
+}
+.navbar-menu li {
+    margin-left: 20px; 
+    font-family: var(--google-font);
+  }
+  .navbar-menu {
+    background-color: #f9ecec;
+  }
