@@ -111,3 +111,9 @@ i.fa-solid.fa-scale-balanced {
     color: var(--primary-colour);
     cursor: pointer;
   }
+  #login-button {
+    padding: 25px;
+  }
+  #signup-button {
+    padding: 25px;
+  }
