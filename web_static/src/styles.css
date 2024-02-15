@@ -3,6 +3,8 @@
 --google-font: 'Lora', serif;
 --hover-colour: #a393eb;
 --primary-colour2: #f9ecec;
+--paragraph-border: 1px solid #f65282;
+--paragraph-border-radius: 10px;
 }
 nav {
     padding: 20px;
@@ -116,4 +118,40 @@ i.fa-solid.fa-scale-balanced {
   }
   #signup-button {
     padding: 25px;
+  }
+  .paragraphs {
+    color: var(--primary-colour2);
+    margin-right: 350px;
+    margin-left: 350px;
+    line-height: 1.75;
+    color: var(--primary-colour);
+  }
+  .paragraph-1 {
+    border: var(--paragraph-border);
+    border-radius: var(--paragraph-border-radius);
+    background-color: var(--primary-colour2);
+  }
+  .paragraph-2 {
+    border: var(--paragraph-border);
+    border-radius: var(--paragraph-border-radius);
+    margin-top: 50px;
+    background-color: var(--primary-colour2);
+  }
+  .paragraph-3 {
+    border: var(--paragraph-border);
+    border-radius: var(--paragraph-border-radius);
+    margin-top: 50px;
+    background-color: var(--primary-colour2);
+  }
+  .paragraph-4 {
+    border: var(--paragraph-border);
+    border-radius: var(--paragraph-border-radius);
+    margin-top: 50px;
+    background-color: var(--primary-colour2);
+  }
+  .paragraph-5 {
+    border: var(--paragraph-border);
+    border-radius: var(--paragraph-border-radius);
+    margin-top: 50px;
+    background-color: var(--primary-colour2);
   }
