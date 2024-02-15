@@ -28,3 +28,24 @@ document.addEventListener("DOMContentLoaded", function() {
     signupButton.addEventListener("click", dispaySignupfields);
 });
 
+$(document).ready(function() {
+    // Submit client form
+    $('#client-form').submit(function(e) {
+        e.preventDefault();
+        var formData = $(this).serialize();
+        $.ajax({
+            type: 'POST',
+            url: '/add_client',
+            data: formData,
+            success: function(response) {
+                alert(response.message);
+                // Clear form fields if needed
+                $('#client-form')[0].reset();
+            },
+            error: function(xhr, status, error) {
+                alert('Error: ' + xhr.responseText);
+            }
+        });
+    });
+});
+

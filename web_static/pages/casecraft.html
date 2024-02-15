@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="body-font">
+    <nav>
+      <header>
+        <strong
+          >CaseCraft: Efficiently manage your law firm's cases, clients, and
+          transactions with our powerful software solution.</strong
+        >
+      </header>
+    </nav>
+    <nav class="navbar-menu">
+      <ul>
+        <li><a href="index.html">Back to Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#email-address">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="background-image">
+        <!-- Add your background image here if needed -->
+        <div class="login-box">
+            <!-- Client form -->
+            <form id="client-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="case">Case:</label>
+                <input type="text" id="case" name="case"><br><br>
+                <label for="nature_of_transaction">Nature of Transaction:</label>
+                <input type="text" id="nature_of_transaction" name="nature_of_transaction"><br><br>
+                <label for="case_details">Case Details:</label>
+                <textarea id="case_details" name="case_details"></textarea><br><br>
+                <button type="submit">Add Client</button>
+            </form>
+        </div>
+    </div>
+    <!-- Include jQuery if needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Include your JavaScript file -->
+    <script src="src/scripts.js"></script>
+</body>
+</html>
